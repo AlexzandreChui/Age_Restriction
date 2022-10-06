@@ -1,0 +1,11 @@
+# Created By: Alex.Chui
+# Created On: 2022/10/06
+# This program tells the computer to tell the user what kind of movies they can watch based on their age.
+age = int(input("Enter your age:"))
+if age >= 17:
+  print("You may watch R-Rated movies.")
+elif age >= 13:
+  print("You may watch PG-13 movies.")
+else:
+  print("You can see G rated movies.")
+print ("\"Have fun at the movies!\"")
